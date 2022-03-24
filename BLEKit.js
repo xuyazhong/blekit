@@ -1,6 +1,6 @@
 'use strict';
 import { NativeEventEmitter, NativeModules, Platform, PermissionsAndroid, ListView, ScrollView, AppState, Dimensions } from 'react-native';
-import BleManager from './BleManager';
+import BleManager from 'react-native-ble-manager';
 import { stringToBytes, bytesToString } from 'convert-string'
 
 const BleManagerModule = NativeModules.BleManager;
